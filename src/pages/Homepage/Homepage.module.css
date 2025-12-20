@@ -1,0 +1,53 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #F6F0D7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Jetbrains Mono";
+}
+
+.title {
+  font-size: 60px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.pages {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.pageTitle {
+  cursor: pointer;
+  position: relative;
+  margin: 0;
+  width: fit-content;
+}
+
+.pageTitle::after {
+  content: '';
+  background-color: black;
+  width: 0%;
+  height: 4px;
+  left: 50%;
+  bottom: -3px;
+  position: absolute;
+  transition: width .3s ease 0s, left .3s ease 0s;
+}
+
+.pageTitle:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .pages {
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
