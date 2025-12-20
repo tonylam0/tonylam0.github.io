@@ -49,9 +49,12 @@ a {
   transition: width .3s ease 0s, left .3s ease 0s;
 }
 
-.pageTitle:hover::after {
-  width: 100%;
-  left: 0;
+/* Only do hover animation on desktop */
+@media (hover: hover) {
+  .pageTitle:hover::after {
+    width: 100%;
+    left: 0;
+  }
 }
 
 @media (max-width: 768px) {
