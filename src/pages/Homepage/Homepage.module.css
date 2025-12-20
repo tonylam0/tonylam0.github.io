@@ -35,13 +35,14 @@ a {
   position: relative;
   margin: 0;
   width: fit-content;
+  font-weight: 400;
 }
 
 .pageTitle::after {
   content: '';
   background-color: black;
   width: 0%;
-  height: 4px;
+  height: 3px;
   left: 50%;
   bottom: -3px;
   position: absolute;

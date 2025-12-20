@@ -21,3 +21,19 @@
   text-align: justify;
   line-height: 1.5;
 }
+
+@media (max-width: 768px) {
+  .text {
+    width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 50px;
+  }
+
+  .text {
+    width: 310px;
+  }
+}
