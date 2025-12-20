@@ -1,5 +1,4 @@
 import styles from './About.module.css'
-import PageTitle from '../../components/PageTitle/PageTitle.jsx'
 
 const About = () => {
   return (

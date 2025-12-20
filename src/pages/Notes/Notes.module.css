@@ -10,8 +10,12 @@
   align-items: center;
 }
 
+.title {
+  margin-top: 0;
+}
+
 .content {
-  width: 20%;
+  width: 30%;
 }
 
 .placeholder {
@@ -25,7 +29,7 @@
 
 @media (max-width: 1920px) {
   .content {
-    width: 30%;
+    width: 50%;
   }
 }
 
