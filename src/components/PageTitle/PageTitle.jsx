@@ -1,11 +1,14 @@
+import { Children } from 'react'
 import styles from './PageTitle.module.css'
 
-const PageTitle = () => {
+const PageTitle = ({children}) => {
   return (
     <>
       <div className={styles.container}>
         <div className={styles.titleContainer}>
-          <h1 className={styles.title}>About me</h1>
+          <h1 className={styles.title}>
+            {children}
+          </h1>
         </div>
         <p className={styles.text}></p>
       </div>
