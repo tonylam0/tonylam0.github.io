@@ -6,4 +6,18 @@
   flex-direction: column;
   font-family: "Jetbrains Mono";
   overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+}
+
+.text {
+  width: 500px;
+  text-align: justify;
+  line-height: 1.5;
 }

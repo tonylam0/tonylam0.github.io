@@ -5,7 +5,7 @@ const Contact = () => {
     <>
       <div className={styles.container}>
         <h1 className={styles.title}>Contact</h1>
-        <p className={styles.text}>Email: tonylam0@gmail.com</p>
+        <p className={styles.text}>Email: lam.tony540@gmail.com</p>
       </div>
     </>
   )
