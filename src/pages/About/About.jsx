@@ -5,9 +5,6 @@ const About = () => {
   return (
     <>
       <div className={styles.container}>
-        {/* <PageTitle>About me</PageTitle> */}
-        {/* <p className={styles.text}>Text</p> */}
-
         <div className={styles.content}>
           <h1 className={styles.title}>About me</h1>
           <p className={styles.text}>
