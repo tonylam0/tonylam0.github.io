@@ -32,7 +32,6 @@
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-
 /* Only do hover animation on desktop */
 @media (hover: hover) {
   .dotLink:hover {

@@ -1,5 +1,5 @@
 import styles from './Notes.module.css'
-import PageTitle from '../../components/PageTitle/PageTitle'
+import PageTitle from '../../components/PageTitle/PageTitle.jsx'
 
 const Notes = () => {
   return (

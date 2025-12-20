@@ -27,7 +27,7 @@ const Tech = () => {
             <li className={styles.item}>Vimium C</li>
             <li className={styles.item}>Firefox</li>
             <li className={styles.item}>Shottr</li>
-            <li className={styles.item}>Neovim</li>
+            <li className={styles.item}>Neovim (LazyVim)</li>
             <li className={styles.item}>Notion</li>
             <li className={styles.item}>Obsidian</li>
             <li className={styles.item}>Cold Turkey Blocker</li>

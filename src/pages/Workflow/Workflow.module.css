@@ -6,4 +6,10 @@
   flex-direction: column;
   font-family: "Jetbrains Mono";
   overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 40%;
 }
