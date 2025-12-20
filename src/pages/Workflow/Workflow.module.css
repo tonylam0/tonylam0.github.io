@@ -8,7 +8,10 @@
   overflow: hidden;
   justify-content: center;
   align-items: center;
-  /* padding-block: 50px; */
+}
+
+.title {
+  margin-top: 0;
 }
 
 .content {
@@ -16,6 +19,10 @@
 }
 
 @media (max-width: 480px) {
+  .container {
+    padding-block: 50px;
+  }
+
   .content {
     width: 60%;
   }

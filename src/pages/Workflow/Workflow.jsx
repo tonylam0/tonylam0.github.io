@@ -5,7 +5,7 @@ const Workflow = () => {
     <>
       <div className={styles.container}>
         <div className={styles.content}>
-          <h1>Workflow</h1>
+          <h1 className={styles.title}>Workflow</h1>
           <p>List of how I go upon work and the things I use along the way.</p>
           <h2 className={styles.heading}>Coding</h2>
           <p>Still writing...</p>
