@@ -1,11 +1,17 @@
 import styles from './Notes.module.css'
-import PageTitle from '../../components/PageTitle/PageTitle.jsx'
 
 const Notes = () => {
   return (
     <>
       <div className={styles.container}>
-        <PageTitle>Notes</PageTitle>
+        <div className={styles.content}>
+          <h1>Notes</h1>
+          <p>A collection of my thoughts.</p>
+
+          <div className={styles.placeholder}>
+            <p className={styles.phText}>Still haven't made a note yet... </p>
+          </div>
+        </div>
       </div>
     </>
   )

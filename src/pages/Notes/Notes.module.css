@@ -6,4 +6,53 @@
   flex-direction: column;
   font-family: "Jetbrains Mono";
   overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 20%;
+}
+
+.placeholder {
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+@media (max-width: 1920px) {
+  .content {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .content {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .content {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    width: 60%;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    width: 80%;
+  }
+
+  .phText {
+    font-size: 14px;
+  }
 }
