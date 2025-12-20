@@ -2,11 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>tonylam0</title>
-    <script type="module" crossorigin src="/assets/index-BaBB40Qq.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-COcDBgFa.css">
+    <title>Tony Lam</title>
+    
+    <!-- Used to unpack search query by 404.html file -->
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === 'p') {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&') 
+          }).filter(function(s) { 
+            return s.slice(0, 2) === 'p=' 
+          })[0];
+          if (decoded !== undefined) {
+            var path = decoded.slice(2);
+            if (path !== l.pathname.slice(1)) {
+              window.history.replaceState(null, null, l.pathname.slice(0, -1) + path + l.hash);
+            }
+          }
+        }
+      }(window.location))
+    </script>
+    <script type="module" crossorigin src="/assets/index-C81h_jf9.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BA9sSVEL.css">
   </head>
   <body>
     <div id="root"></div>
