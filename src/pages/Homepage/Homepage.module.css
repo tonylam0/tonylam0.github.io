@@ -1,13 +1,13 @@
 .container {
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   background-color: #F6F0D7;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   font-family: "Jetbrains Mono";
-  overflow: hidden;
+  overflow: none;
 }
 
 .title {
@@ -26,6 +26,7 @@
 
 .pageTitle {
   cursor: pointer;
+  user-select: none;
   position: relative;
   margin: 0;
   width: fit-content;
