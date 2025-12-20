@@ -19,6 +19,10 @@ function Homepage() {
             <h2 className={styles.pageTitle}>Workflow</h2>
           </Link>
 
+          <Link to={"/tech"}>
+            <h2 className={styles.pageTitle}>Tech</h2>
+          </Link>
+
           <Link to={"/contact"}>
             <h2 className={styles.pageTitle}>Contact</h2>
           </Link>

@@ -1,14 +1,13 @@
 import styles from './About.module.css'
+import PageTitle from '../../components/PageTitle/PageTitle.jsx'
 
-function About() {
+const About = () => {
   return (
     <>
       <div className={styles.container}>
-        <div className={styles.titleContainer}>
-          <h1 className={styles.title}>About me</h1>
-        </div>
+        <PageTitle></PageTitle>
         <p className={styles.text}></p>
-      </div>
+      </div >
     </>
   )
 }
