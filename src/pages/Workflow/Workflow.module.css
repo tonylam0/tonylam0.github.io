@@ -13,3 +13,14 @@
 .content {
   width: 40%;
 }
+
+@media (max-width: 480px) {
+  .content {
+    width: 60%;
+  }
+
+
+  .heading {
+    font-size: 20px;
+  }
+}
