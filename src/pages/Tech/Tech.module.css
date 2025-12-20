@@ -32,9 +32,13 @@
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.dotLink:hover {
-  opacity: 70%;
-  transform: translate(10px, 0px);
+
+/* Only do hover animation on desktop */
+@media (hover: hover) {
+  .dotLink:hover {
+    opacity: 70%;
+    transform: translate(10px, 0px);
+  }
 }
 
 @media (max-width: 1024px) {
