@@ -9,7 +9,9 @@ const Notes = () => {
           <h1 className={styles.title}>Notes</h1>
           <p>A collection of my thoughts.</p>
 
-          <NoteCard name={"reading"} title={"Reading"} date={"12/20/2025"}></NoteCard>
+          <div className={styles.posts}>
+            <NoteCard name={"access-local-server"} title={"How to Access Computer's Local Server on Any Device"} date={"12/21/2025"}></NoteCard>
+          </div>
         </div>
       </div >
     </>

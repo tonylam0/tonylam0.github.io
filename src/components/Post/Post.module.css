@@ -15,8 +15,20 @@
 }
 
 .content {
-  width: 40%;
   padding-block: 80px;
+  width: 40%;
+}
+
+.content pre {
+  background-color: #2D2D2D;
+  color: #F6F0D7;
+  border-radius: 5px;
+  padding: 20px;
+  white-space: pre-wrap;
+}
+
+.signature {
+  font-weight: 400;
 }
 
 @media (max-width: 480px) {
@@ -24,8 +36,11 @@
     width: 60%;
   }
 
+  .title {
+    font-size: 25px;
+  }
 
-  .heading {
-    font-size: 20px;
+  .content p {
+    font-size: 15px;
   }
 }

@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  height: 50px;
+  height: fit-content;
   display: flex;
   box-sizing: border-box;
   flex-direction: row;
@@ -9,19 +9,35 @@
   background-color: #f4f4f4;
   border-radius: 10px;
   border: 2px solid black;
-  padding-inline: 10px;
+  padding: 10px;
   cursor: pointer;
+  gap: 50px;
 }
 
-a {
+.noteLink {
   text-decoration: none;
   color: inherit;
-  width: 100%;
   height: fit-content;
+}
+
+.title {
+  margin: 0;
+
+}
+
+.date {
+  margin: 0;
 }
 
 @media (hover:hover) {
   .container:hover {
     background-color: #f0f0f0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .date {
+    opacity: 0;
+    position: absolute;
   }
 }

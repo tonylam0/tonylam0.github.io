@@ -15,7 +15,14 @@
 }
 
 .content {
-  width: 30%;
+  width: 40%;
+  padding-block: 80px;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 @media (max-width: 1920px) {
@@ -25,12 +32,6 @@
 }
 
 @media (max-width: 1200px) {
-  .content {
-    width: 40%;
-  }
-}
-
-@media (max-width: 1024px) {
   .content {
     width: 50%;
   }
