@@ -18,16 +18,23 @@
   margin-top: 0;
 }
 
+.heading {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.heading h2 {
+  font-size: 24px;
+  margin: 0;
+}
 
 .deviceName {
   margin-bottom: 5px;
 }
 
-.list {
-  margin: 0;
-}
-
-.dotLink {
+.linkText {
   color: black;
   opacity: 50%;
   cursor: pointer;
@@ -35,9 +42,13 @@
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
+.list {
+  margin: 0;
+}
+
 /* Only do hover animation on desktop */
 @media (hover: hover) {
-  .dotLink:hover {
+  .linkText:hover {
     opacity: 70%;
     transform: translate(10px, 0px);
   }
@@ -54,13 +65,19 @@
     font-size: 35px;
   }
 
-  .deviceName {
-    font-size: 20px;
+  .heading {
+    flex-direction: column;
+    gap: 0;
   }
-}
 
-@media (max-width: 480px) {
-  .deviceName {
+  .heading h2 {
     font-size: 20px;
+    margin-bottom: 0;
   }
+
+  .heading {
+    align-items: stretch;
+    justify-content: center;
+  }
+
 }

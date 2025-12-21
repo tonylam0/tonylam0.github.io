@@ -1,0 +1,81 @@
+{
+  "Computer": {
+    "model": "MacBook Air M1",
+    "link": "https://github.com/tonylam0/dotfiles",
+    "linkName": "dotfiles",
+    "items": [
+      "Kitty (Terminal)",
+      "User-made terminal commands via .zshrc file",
+      "Yabai (Window Manager)",
+      "RMPC w/ MPD (Music Player)",
+      "skhd (Hotkey Daemon)",
+      "JankyBorders (Window Borders)",
+      "Firefox (Browser)",
+      "Vimium C (Vim inside Firefox)",
+      "Shottr (Screenshotter)",
+      "Neovim (LazyVim) (IDE)",
+      "Notion",
+      "Obsidian",
+      "Cold Turkey Blocker (Website Blocker)",
+      "YPT (Study Time Tracker)",
+      "f.lux (Night Mode)",
+      "Simple-bar via Übersicht (Menu Bar)",
+      "Alfred (Spotlight Search Replacement)",
+      "Karabiner-Elements (Keyboard Customizer)",
+      "Mac Mouse Fix 2.0 (Mouse Binder)",
+      "Skim (PDF Reader)",
+      "Yazi (File Manager)",
+      "btop (Resource Monitor)"
+   ]
+  },
+
+  "Phone": {
+    "model": "iPhone 11",
+    "items": [
+      "No social media apps",
+      "Blocked social media websites via Screen Time",
+      "Uninstalled app store",
+      "Black & white filter via Zoom",
+      "Red screen color filter",
+      "Shortcuts animation to switch from black & white to red filter at wind down time",
+      "Musi",
+      "Obsidian sync via Git community plugin",
+      "iBooks",
+      "Notion",
+      "YPT"
+    ]
+  },
+
+  "Tablet": {
+    "model": "iPad Air Generation 4", 
+    "items": [
+      "Concepts",
+      "iBooks",
+      "Noteful",
+      "Obsidian sync via Git community plugin",
+      "Notion",
+      "YPT"
+    ]
+  },
+
+  "E-reader": {
+    "model": "Kindle 11th Generation", 
+    "items": [
+      "Jailbroken via WinterBreak",
+      "KindleForge",
+      "Koreader",
+      "Toggle Ads"
+    ]
+  },
+
+  "Accessories": {
+    "model": null,
+    "items": [
+      "AirPods Pro Generation 1",
+      "Sony XM4",
+      "KOORUI E2721F 27-inch IPS QHD 100Hz Monitor",
+      "HUANUO Single Monitor Mount Arm",
+      "Daylight Therapy Lamp"
+    ]
+  }
+}
