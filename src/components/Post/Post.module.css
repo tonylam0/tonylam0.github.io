@@ -36,11 +36,12 @@
     width: 60%;
   }
 
+  .content p {
+    font-size: 15px;
+  }
+
   .title {
     font-size: 25px;
   }
 
-  .content p {
-    font-size: 15px;
-  }
 }
