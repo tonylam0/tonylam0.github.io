@@ -11,12 +11,12 @@ import Contact from './pages/Contact/Contact.jsx'
 
 function App() {
   const element = useRoutes([
-    { path: '/', element: <Homepage /> },
-    { path: '/about', element: <About /> },
-    { path: '/notes', element: <Notes /> },
-    { path: '/workflow', element: <Workflow /> },
-    { path: '/tech', element: <Tech /> },
-    { path: '/contact', element: <Contact /> },
+    {path: '/', element: <Homepage />},
+    {path: '/about', element: <About />},
+    {path: '/notes', element: <Notes />},
+    {path: '/workflow', element: <Workflow />},
+    {path: '/tech', element: <Tech />},
+    {path: '/contact', element: <Contact />},
 
     // Any files in /posts will be handled here automatically
     ...routes,

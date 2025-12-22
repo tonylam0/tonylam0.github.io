@@ -1,26 +1,13 @@
 import styles from './Workflow.module.css'
+import ReactMarkdown from 'react-markdown'
+import content from '../../markdown/workflow.md?raw'
 
 const Workflow = () => {
   return (
     <>
       <div className={styles.container}>
         <div className={styles.content}>
-          <h1 className={styles.title}>Workflow</h1>
-          <p>List of how I go upon work and the things I use along the way.</p>
-          <h2 className={styles.heading}>Coding</h2>
-          <p>Still writing...</p>
-          <h2 className={styles.heading}>Taking Notes for School</h2>
-          <p>Still writing...</p>
-          <h2 className={styles.heading}>Reading</h2>
-          <p>Still writing...</p>
-          <h2 className={styles.heading}>To-do list</h2>
-          <p>Still writing...</p>
-          <h2 className={styles.heading}>Tracking</h2>
-          <p>Still writing...</p>
-          <h2 className={styles.heading}>Reducing Distractions</h2>
-          <p>Still writing...</p>
-          <h2 className={styles.heading}>Contemplation</h2>
-          <p>Still writing...</p>
+          <ReactMarkdown>{content}</ReactMarkdown>
         </div>
       </div>
     </>

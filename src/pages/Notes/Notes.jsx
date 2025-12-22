@@ -3,8 +3,6 @@ import NoteCard from '../../components/NoteCard/NoteCard.jsx'
 import posts from './posts.json'
 
 const Notes = () => {
-  console.log(posts)
-
   return (
     <>
       <div className={styles.container}>

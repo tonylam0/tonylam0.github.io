@@ -1,11 +1,10 @@
 import styles from './Post.module.css'
 
-const Post = ({ children, title, date }) => {
+const Post = ({ children, date }) => {
   return (
     <>
       <div className={styles.container}>
         <div className={styles.content}>
-          <h1 className={styles.title}>{title}</h1>
           {children}
           <br />
           <p className={styles.signature}>Thanks for reading,</p>
