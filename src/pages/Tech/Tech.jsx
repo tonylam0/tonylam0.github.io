@@ -1,5 +1,5 @@
 import styles from './Tech.module.css'
-import list from './list.json'
+import devices from './devices.json'
 
 const Tech = () => {
   return (
@@ -8,7 +8,7 @@ const Tech = () => {
         <div className={styles.content}>
           <h1 className={styles.title}>Technology</h1>
 
-          {list && Object.entries(list).map(([key, value]) => (
+          {devices && Object.entries(devices).map(([key, value]) => (
             <div key={key}>
               <div className={styles.heading}>
                 {value.model ? <h2 className={styles.deviceName}>{key} ({value.model})</h2> : <h2 className={styles.deviceName}>{key}</h2>}

@@ -1,7 +1,10 @@
 import styles from './Notes.module.css'
 import NoteCard from '../../components/NoteCard/NoteCard.jsx'
+import posts from './posts.json'
 
 const Notes = () => {
+  console.log(posts)
+
   return (
     <>
       <div className={styles.container}>
@@ -10,7 +13,9 @@ const Notes = () => {
           <p>A collection of my thoughts.</p>
 
           <div className={styles.posts}>
-            <NoteCard name={"access-local-server"} title={"How to Access Computer's Local Server on Any Device"} date={"12/21/2025"}></NoteCard>
+            {posts && posts.map((value) => (
+              <NoteCard key={value.id} route={value.route} title={value.title} date={value.date}></NoteCard>
+            ))}
           </div>
         </div>
       </div >
