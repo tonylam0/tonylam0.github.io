@@ -24,7 +24,13 @@
   color: #F6F0D7;
   border-radius: 5px;
   padding: 20px;
-  white-space: pre-wrap;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #F6F0D7 #2d2d2d;
+}
+
+.content a {
+  color: inherit;
 }
 
 .signature {

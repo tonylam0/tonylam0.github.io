@@ -19,6 +19,41 @@
   margin-top: 0;
 }
 
+.content h2 {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.content h3 {
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.content h4 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.content pre {
+  background-color: #2D2D2D;
+  color: #F6F0D7;
+  border-radius: 5px;
+  padding: 20px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #F6F0D7 #2d2d2d;
+}
+
+.content a {
+  color: inherit;
+}
+
+@media (max-width: 768px) {
+  .content {
+    width: 60%;
+  }
+}
+
 @media (max-width: 480px) {
   .content {
     width: 60%;

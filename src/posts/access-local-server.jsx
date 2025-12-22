@@ -1,4 +1,4 @@
-import Post from "../components/Post/Post"
+import Post from "../components/Post/Post.jsx"
 import ReactMarkdown from 'react-markdown'
 import content from '../markdown/access-local-server.md?raw'
 
