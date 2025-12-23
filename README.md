@@ -1,4 +1,4 @@
-[# Personal Website](https://tonylam0.github.io/)
+# [Personal Website](https://tonylam0.github.io/)
 
 This repository contains the source code behind my personal website. 
 
