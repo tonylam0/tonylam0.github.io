@@ -20,18 +20,38 @@
 }
 
 .content h2 {
-  margin-top: 40px;
-  margin-bottom: 0;
+  font-size: 25px;
+  margin: 0;
 }
 
 .content h3 {
-  font-size: 22px;
+  font-size: 21px;
   margin-bottom: 0;
 }
 
 .content h4 {
-  font-size: 20px;
+  font-size: 19px;
   margin-bottom: 0;
+}
+
+.content h5 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.content h6 {
+  margin: 0;
+  font-weight: 400;
+  opacity: 70%;
+  font-size: 12px;
+}
+
+.content ol {
+  margin: 0;
+}
+
+.content ul {
+  margin: 0;
 }
 
 .content pre {
@@ -39,10 +59,16 @@
   color: #F6F0D7;
   border-radius: 5px;
   padding: 20px;
+  margin-bottom: 5px;
   overflow-x: auto;
   scrollbar-width: thin;
   scrollbar-color: #F6F0D7 #2d2d2d;
 }
+
+.content code {
+  margin: 0;
+}
+
 
 .content a {
   color: inherit;

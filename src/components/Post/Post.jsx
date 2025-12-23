@@ -7,6 +7,7 @@ const Post = ({ children, date }) => {
         <div className={styles.content}>
           {children}
           <br />
+          <p className={styles.signature}>---</p>
           <p className={styles.signature}>Thanks for reading,</p>
           <p className={styles.signature}>Tony Lam ({date})</p>
         </div>
