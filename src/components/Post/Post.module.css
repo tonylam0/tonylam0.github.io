@@ -34,11 +34,19 @@
   margin-bottom: 0;
 }
 
+.content h6 {
+  margin: 0;
+  font-weight: 400;
+  opacity: 70%;
+  font-size: 12px;
+}
+
 .content pre {
   background-color: #2D2D2D;
   color: #F6F0D7;
   border-radius: 5px;
   padding: 20px;
+  margin-bottom: 5px;
   overflow-x: auto;
   scrollbar-width: thin;
   scrollbar-color: #F6F0D7 #2d2d2d;

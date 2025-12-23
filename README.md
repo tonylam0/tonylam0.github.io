@@ -2,4 +2,4 @@
 
 This repository contains the source code behind my personal website. 
 
-This website shares the things I have and am currently learning. This is NOT a personal portfolio, but rather a home for my thoughts and life.
+This website shares the things I have and am currently learning. This is **NOT** a personal portfolio, but rather a home for my thoughts and life.
