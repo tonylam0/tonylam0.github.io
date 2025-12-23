@@ -26,11 +26,17 @@
   align-items: center;
   flex-direction: row;
   gap: 12px;
+  width: fit-content;
 }
 
 .heading h2 {
   font-size: 24px;
   margin: 0;
+  width: fit-content;
+}
+
+.heading a {
+  width: fit-content;
 }
 
 .deviceName {
