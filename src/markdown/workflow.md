@@ -46,7 +46,7 @@ Another very big plus for working in Neovim is its ability to easily create snip
 
 ##### To-do lists:
 
-As previously mentioned, I have my to-do lists in my terminal. I made a zsh function in my .zshrc file that allows me to access today’s or any of my to-do lists within one "td" command.
+As previously mentioned, I have my to-do lists in my terminal. I made a Zsh function in my .zshrc file that allows me to access today’s or any of my to-do lists within one "td" command.
 
 Here is the script:
 ```zsh
@@ -193,7 +193,7 @@ I have used YPT to track my studying/work since late 2024. I mostly use its Pomo
 
 ##### Desktop Switches:
 
-It's very efficient to have everything in my workflow be in the same place all the time and binded to a keyboard shortcut.
+It's very efficient to have everything in my workflow be in the same place all the time and bound to a keyboard shortcut.
 
 I use *skhd* and *Karabiner-Elements* to access different desktops very easily and quickly, so I don't have to spend a long time finding where a certain application is in Mission Control. To do it, I made my caps lock key a hyper key in *Karabiner-Elements*, then mapped that hyper key, combined with another key, to a specific desktop in *skhd*. To keep my environment consistent, I assign tasks to designated desktops (e.g., browser in desktop 1, Neovim in desktop 2, todos in desktop 3, etc.).
 
@@ -232,7 +232,7 @@ The first desktop is Firefox, which usually has Gemini or some type of documenta
 
 The second desktop is my Neovim window.
 
-The third desktop is Google Chrome with my computer's local server whenever I'm testing a frontend. The reason I use Google Chrome is that I don't want to manually add a Firefox window to my third desktop every time I quit out of Firefox.
+The third desktop is Google Chrome with my computer's localhost whenever I'm testing a frontend. I use Google Chrome to keep my development testing separate from my main browsing, so it stays even if I close out of Firefox.
 
 Outside of my computer, if I need to conceptualize something or draw something out, I do it in my commonplace book.
 
