@@ -9,6 +9,8 @@ import Workflow from './pages/Workflow/Workflow.jsx'
 import Tech from './pages/Tech/Tech.jsx'
 import Contact from './pages/Contact/Contact.jsx'
 import Academia from './pages/Academia/Academia.jsx'
+import DSA2 from './pages/Academia/DSA2/DSA2.jsx'
+import SDE from './pages/Academia/SDE/SDE.jsx'
 
 function App() {
   const element = useRoutes([
@@ -19,6 +21,8 @@ function App() {
     { path: '/tech', element: <Tech /> },
     { path: '/academia', element: <Academia /> },
     { path: '/contact', element: <Contact /> },
+    { path: '/academia/sde', element: <SDE /> },
+    { path: '/academia/dsa2', element: <DSA2 /> },
 
     // Any files in /posts will be handled here automatically
     ...routes,

@@ -1,0 +1,19 @@
+.container {
+  width: 100vw;
+  min-height: 100dvh;
+  background-color: #F6F0D7;
+  display: flex;
+  flex-direction: column;
+  font-family: "Jetbrains Mono";
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin-top: 0;
+}
+
+.content {
+  width: 40%;
+  padding-block: 80px;
+}
