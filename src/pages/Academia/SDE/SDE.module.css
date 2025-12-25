@@ -11,9 +11,62 @@
 
 .title {
   margin-top: 0;
+  width: 100%;
 }
 
 .content {
-  width: 40%;
-  padding-block: 80px;
+  width: fit-content;
+  padding-block: 150px;
+  display: grid;
+  grid-template-columns: min-content;
+}
+
+.content a {
+  color: inherit;
+  margin-inline: 7px;
+}
+
+.pdfContainer {
+  box-sizing: border-box;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-self: center;
+}
+
+.document {
+  border: 2px solid black;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.button {
+  font-family: "Jetbrains Mono";
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+  color: black;
+}
+
+.button:hover {
+  filter: brightness(.9);
+}
+
+@media (max-width: 480px) {
+  /* .content { */
+  /*   width: 300px; */
+  /* } */
+
+  .title {
+    font-size: 20px;
+  }
 }
