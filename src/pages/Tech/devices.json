@@ -5,7 +5,6 @@
     "linkName": "dotfiles",
     "items": [
       "Kitty (Terminal)",
-      "User-made terminal commands via .zshrc file",
       "Yabai (Window Manager)",
       "RMPC w/ MPD (Music Player)",
       "skhd (Hotkey Daemon)",

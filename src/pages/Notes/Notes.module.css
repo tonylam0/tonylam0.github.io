@@ -31,12 +31,6 @@
   }
 }
 
-@media (max-width: 1200px) {
-  .content {
-    width: 50%;
-  }
-}
-
 @media (max-width: 768px) {
   .content {
     width: 60%;

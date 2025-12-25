@@ -11,8 +11,8 @@ const Notes = () => {
           <p>A collection of my thoughts.</p>
 
           <div className={styles.posts}>
-            {posts && posts.map((value) => (
-              <NoteCard key={value.id} route={value.route} title={value.title} date={value.date}></NoteCard>
+            {posts && posts.map((key) => (
+              <NoteCard key={key.id} route={key.route} title={key.title} date={key.date}></NoteCard>
             ))}
           </div>
         </div>

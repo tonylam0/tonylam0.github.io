@@ -8,15 +8,17 @@ import Notes from './pages/Notes/Notes.jsx'
 import Workflow from './pages/Workflow/Workflow.jsx'
 import Tech from './pages/Tech/Tech.jsx'
 import Contact from './pages/Contact/Contact.jsx'
+import Academia from './pages/Academia/Academia.jsx'
 
 function App() {
   const element = useRoutes([
-    {path: '/', element: <Homepage />},
-    {path: '/about', element: <About />},
-    {path: '/notes', element: <Notes />},
-    {path: '/workflow', element: <Workflow />},
-    {path: '/tech', element: <Tech />},
-    {path: '/contact', element: <Contact />},
+    { path: '/', element: <Homepage /> },
+    { path: '/about', element: <About /> },
+    { path: '/notes', element: <Notes /> },
+    { path: '/workflow', element: <Workflow /> },
+    { path: '/tech', element: <Tech /> },
+    { path: '/academia', element: <Academia /> },
+    { path: '/contact', element: <Contact /> },
 
     // Any files in /posts will be handled here automatically
     ...routes,

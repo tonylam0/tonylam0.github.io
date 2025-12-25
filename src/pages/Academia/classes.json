@@ -1,0 +1,13 @@
+{
+  "Data Structures and Algorithms 2": {
+    "courseName": "CS3100",
+    "thumbnail": "src/assets/dsa2_thumbnail.jpg",
+    "route": "/academia/dsa2"
+  },
+
+    "Software Development Essentials": {
+    "courseName": "CS3140",
+    "thumbnail": "src/assets/sde_thumbnail.jpg",
+    "route": "/academia/sde"
+  }
+}
