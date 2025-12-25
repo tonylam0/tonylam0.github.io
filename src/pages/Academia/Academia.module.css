@@ -21,7 +21,7 @@
 .classSection {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  gap: 15px;
 }
 
 .classContainer {
@@ -87,7 +87,7 @@
 .name {
   margin: 0;
   width: fit-content;
-  font-size: clamp(1rem, 1vw, 1.8rem);
+  font-size: clamp(1.2rem, 1.8vw, 1.7rem);
   text-align: center;
 }
 
