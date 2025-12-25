@@ -197,8 +197,6 @@ It's very efficient to have everything in my workflow be in the same place all t
 
 I use *skhd* and *Karabiner-Elements* to access different desktops very easily and quickly, so I don't have to spend a long time finding where a certain application is in Mission Control. To do it, I made my caps lock key a hyper key in *Karabiner-Elements*, then mapped that hyper key, combined with another key, to a specific desktop in *skhd*. To keep my environment consistent, I assign tasks to designated desktops (e.g., browser in desktop 1, Neovim in desktop 2, todos in desktop 3, etc.).
 
-Again, you can find my configuration files [here](https://github.com/tonylam0/dotfiles).
-
 <br />
 
 ##### Commonplace Book
