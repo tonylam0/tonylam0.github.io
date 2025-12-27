@@ -1,76 +1,124 @@
 import { useState, useEffect } from 'react'
 import styles from './SDE.module.css'
-import { Document, Page, pdfjs } from 'react-pdf';
-import 'react-pdf/dist/Page/AnnotationLayer.css';
-import 'react-pdf/dist/Page/TextLayer.css';
+import { Document, Page, pdfjs } from 'react-pdf'
+import TriangleIcon from '../../../assets/triangle.svg?react'
+import 'react-pdf/dist/Page/AnnotationLayer.css'
+import 'react-pdf/dist/Page/TextLayer.css'
+import pdfNotes from './sde.pdf'
 
-import pdfWorker from 'pdfjs-dist/build/pdf.worker.min.mjs?url';
-pdfjs.GlobalWorkerOptions.workerSrc = pdfWorker;
+import pdfWorker from 'pdfjs-dist/build/pdf.worker.min.mjs?url'
+pdfjs.GlobalWorkerOptions.workerSrc = pdfWorker
 
 const SDE = () => {
-  const [numPages, setNumPages] = useState(null);
-  const [pageNumber, setPageNumber] = useState(1);
-  const [pdfWidth, setPdfWidth] = useState(800);
+  const [numPages, setNumPages] = useState(null)
+  const [pageNumber, setPageNumber] = useState(1)
+  const [pdfWidth, setPdfWidth] = useState(800)
+  const [pageText, setPageText] = useState(pageNumber)
 
   function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
+    setNumPages(numPages)
   }
 
   function onItemClick({ pageNumber: nextPage }) {
-    setPageNumber(nextPage);
+    setPageNumber(nextPage)
   }
 
-  const changePage = (offset) => setPageNumber(prevPage => prevPage + offset);
+  const changePage = (offset) => setPageNumber(prevPage => prevPage + offset)
 
   useEffect(() => {
     const handleResize = () => {
-      const width = window.innerWidth;
+      const width = window.innerWidth
 
       if (width < 480) {
-        setPdfWidth(300); 
+        setPdfWidth(300)
       } else if (width < 768) {
-        setPdfWidth(400);
+        setPdfWidth(400)
       } else if (width < 1024) {
-        setPdfWidth(700);
-      } else if (width < 1200){
-        setPdfWidth(800);
+        setPdfWidth(700)
+      } else if (width < 1200) {
+        setPdfWidth(800)
+      } else if (width < 1600) {
+        setPdfWidth(900)
       } else {
         setPdfWidth(1000)
       }
-    };
+    }
 
-    handleResize();
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
+    handleResize()
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
+
+  useEffect(() => {
+    setPageText(pageNumber)
+  }, [pageNumber])
+
+  const pageChange = (event) => {
+    setPageText(event.target.value)
+  }
+
+  const moveToPage = (event) => {
+    event.preventDefault()
+    document.activeElement.blur()
+
+    const targetPage = parseInt(pageText)
+    if (targetPage >= 1 && targetPage <= numPages) {
+      setPageNumber(targetPage)
+    } else {
+      setPageText(pageNumber)
+    }
+  }
+
 
   return (
     <>
       <div className={styles.container}>
         <div className={styles.content}>
           <h1 className={styles.title}>Software Development Essentials</h1>
-          <p className={styles.description}>My pdf
+          <h3 className={styles.description}>My PDF
             <a
-              href="/assets/main.pdf"
+              href={pdfNotes}
               target="_blank"
               rel="noopener noreferrer">
               notes
             </a>
-            (made with with LaTeX):
-          </p>
-
+            (last update: initial class layout):
+          </h3>
           <div className={styles.pdfContainer}>
-            <Document file="/assets/main.pdf" onLoadSuccess={onDocumentLoadSuccess} onItemClick={onItemClick} className={styles.document}>
+            <div className={styles.controls}>
+              <button disabled={pageNumber <= 1} onClick={() => changePage(-1)} className={styles.button}>
+                <TriangleIcon className={styles.triangle} style={{ transform: "rotate(-90deg)" }} fill="currentColor" />
+              </button>
+              <form onSubmit={moveToPage}>
+                <span className={styles.pageNumberText}>Page
+                  <input type="text" name="pageNumber" value={pageText} onChange={pageChange} className={styles.pageInput}></input>
+                  / {numPages}
+                </span>
+              </form>
+              <button disabled={pageNumber >= numPages} onClick={() => changePage(1)} className={styles.button}>
+                <TriangleIcon className={styles.triangle} style={{ transform: "rotate(90deg)" }}></TriangleIcon>
+              </button>
+            </div>
+
+            <Document file={pdfNotes} onLoadSuccess={onDocumentLoadSuccess} onItemClick={onItemClick} className={styles.document}>
               <Page width={pdfWidth} pageNumber={pageNumber} renderAnnotationLayer={true} renderTextLayer={true} renderMode="svg" />
             </Document>
 
             <div className={styles.controls}>
-              <button disabled={pageNumber <= 1} onClick={() => changePage(-1)} className={styles.button}>Back</button>
-              <span>Page {pageNumber} of {numPages}</span>
-              <button disabled={pageNumber >= numPages} onClick={() => changePage(1)} className={styles.button}>Next</button>
+              <button disabled={pageNumber <= 1} onClick={() => changePage(-1)} className={styles.button}>
+                <TriangleIcon className={styles.triangle} style={{ transform: "rotate(-90deg)" }} fill="currentColor" />
+              </button>
+              <form onSubmit={moveToPage}>
+                <span className={styles.pageNumberText}>Page
+                  <input type="text" name="pageNumber" value={pageText} onChange={pageChange} className={styles.pageInput}></input>
+                  / {numPages}
+                </span>
+              </form>
+              <button disabled={pageNumber >= numPages} onClick={() => changePage(1)} className={styles.button}>
+                <TriangleIcon className={styles.triangle} style={{ transform: "rotate(90deg)" }}></TriangleIcon>
+              </button>
             </div>
           </div>
-
         </div>
       </div >
     </>

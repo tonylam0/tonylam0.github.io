@@ -53,7 +53,7 @@
 
 /* Only do hover animation on desktop */
 @media (hover: hover) {
-  .pageTitle:hover::after {
+  .pagetitle:hover::after {
     width: 100%;
     left: 0;
   }
