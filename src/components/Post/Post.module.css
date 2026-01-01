@@ -56,6 +56,17 @@
   color: inherit;
 }
 
+.content blockquote {
+  border-left: 6px solid black;
+  margin-left: 0;
+  padding-block: 5px;
+  padding-left: 35px;
+}
+
+.content blockquote p {
+  margin: 0;
+}
+
 .signature {
   font-weight: 400;
 }

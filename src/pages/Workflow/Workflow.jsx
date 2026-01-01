@@ -1,9 +1,9 @@
 import styles from './Workflow.module.css'
 import ReactMarkdown from 'react-markdown'
 import rehypeExternalLinks from 'rehype-external-links'
-import content from '../../markdown/workflow.md?raw'
 import rehypeSlug from 'rehype-slug'
 import rehypeRaw from 'rehype-raw'
+import content from '../../markdown/workflow.md?raw'
 
 const Workflow = () => {
   return (
@@ -15,7 +15,8 @@ const Workflow = () => {
               rehypeSlug,
               rehypeRaw
             ]}>
-            {content}</ReactMarkdown>
+            {content}
+          </ReactMarkdown>
         </div>
       </div >
     </>

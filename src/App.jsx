@@ -1,8 +1,6 @@
 import { Suspense } from 'react'
 import { useRoutes } from 'react-router-dom'
 import routes from '~react-pages'
-import 'react-pdf/dist/Page/AnnotationLayer.css';
-import 'react-pdf/dist/Page/TextLayer.css';
 
 import Homepage from './pages/Homepage/Homepage.jsx'
 import About from './pages/About/About.jsx'

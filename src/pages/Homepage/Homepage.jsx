@@ -23,9 +23,9 @@ function Homepage() {
             <h2 className={styles.pageTitle}>Tech</h2>
           </Link>
 
-          <Link to={"/academia"} className={styles.pageLink}>
-            <h2 className={styles.pageTitle}>Academia</h2>
-          </Link>
+          {/* <Link to={"/academia"} className={styles.pageLink}> */}
+          {/*   <h2 className={styles.pageTitle}>Academia</h2> */}
+          {/* </Link> */}
 
           <Link to={"/contact"} className={styles.pageLink}>
             <h2 className={styles.pageTitle}>Contact</h2>
