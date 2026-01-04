@@ -32,16 +32,14 @@
     "model": "iPhone 11",
     "items": [
       "No social media apps",
-      "Blocked social media websites via Screen Time",
-      "Uninstalled app store",
       "Black & white filter via Zoom",
       "Red screen color filter",
-      "Shortcuts animation to switch from black & white to red filter at wind down time",
       "Musi",
       "Obsidian sync via Git community plugin",
       "iBooks",
       "Notion",
-      "YPT"
+      "YPT",
+      "Orion Browser w/ Unhook"
     ]
   },
 
@@ -53,7 +51,8 @@
       "Noteful",
       "Obsidian sync via Git community plugin",
       "Notion",
-      "YPT"
+      "YPT",
+      "Orion Browser w/ Unhook & uBlock Origin"
     ]
   },
 
