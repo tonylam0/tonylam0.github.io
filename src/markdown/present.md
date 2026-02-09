@@ -2,7 +2,7 @@
 
 Since I've been in college, one thing that has stuck out to me the most while I've been eating at dining halls or having study sessions is that most people are not 100% present in the moment. Through distractions like our phones or other types, we have lost the ability to sit still and be immersed in our current task. Nowadays, if you sit alone and are not looking down at your phone every 30 seconds, then you are considered weird. It's weird for people to not have something right in front of them to fixate on 24/7. It's weird to not have a short or reel dangling in front of them to keep their clouded mind averted from what's truly important. 
 
-This ease to not rush my mind to focus on something external has given my daily life a lot of peace and meaning. Whenever I fill my day's gaps with meaningless filler, my life gets that much less vivid. Doing simple tasks like eating and stretching without videos or quick entertainment has allowed me to take everything in and enjoy the simple things.
+This ease to not rush my mind to focus on something external has given my daily life a lot of peace and meaning. Whenever I fill my day's gaps with meaningless filler, my life gets that much less vivid. Doing simple tasks like eating and stretching without videos or quick entertainment has allowed me to take everything in and appreciate even the most mundane things.
 
 Saying this, I can't say that I haven't or currently don't sometimes succumb to the tempting compulsion to pick up my phone or iPad and rot, but through having experienced both sides, I see the quiet yet remarkable differences this small intention holds. 
 
