@@ -11,9 +11,17 @@ const Notes = () => {
           <p>A collection of my thoughts.</p>
 
           <div className={styles.posts}>
-            {posts && posts.map((key) => (
-              <NoteCard key={key.id} route={key.route} title={key.title} date={key.date}></NoteCard>
-            ))}
+            {posts && [...posts]
+              .sort((a, b) => new Date(b.date) - new Date(a.date)) // Sorts descending
+              .map((post) => (
+                <NoteCard
+                  key={post.id}
+                  route={post.route}
+                  title={post.title}
+                  date={post.date}
+                />
+              ))
+            }
           </div>
         </div>
       </div >
