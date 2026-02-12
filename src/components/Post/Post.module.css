@@ -77,11 +77,14 @@
   font-weight: 400;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1200px) {
   .content {
-    width: 60%;
+    width: 80%;
   }
+}
 
+
+@media (max-width: 480px) {
   .content h1 {
     font-size: 25px;
   }
