@@ -60,11 +60,17 @@
   border-left: 6px solid black;
   margin-left: 0;
   padding-block: 5px;
-  padding-left: 35px;
+  padding-left: 20px;
 }
 
 .content blockquote p {
   margin: 0;
+}
+
+.content em {
+  font-weight: 300;
+  font-style: italic;
+  color: #000;
 }
 
 .signature {

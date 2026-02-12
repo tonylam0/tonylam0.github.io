@@ -10,5 +10,11 @@
     "title": "Living in the Present",
     "date": "2/8/2026",
     "route": "/present"
+  },
+    {
+    "id": 3,
+    "title": "Escaping the \"Gold Standard\" of Computer Science",
+    "date": "2/12/2026",
+    "route": "/gold-standard"
   }
 ]
