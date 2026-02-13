@@ -1,4 +1,4 @@
-import{j as e,M as t,r as n}from"./index-DSKGyU7A.js";import{P as o}from"./Post-DlYtzo3m.js";const i=`# Living in the Present
+import{j as e,M as t,r as n}from"./index-aqinHdLx.js";import{P as o}from"./Post-DBuL-z3Y.js";const i=`# Living in the Present
 
 Since I've been in college, one thing that has stuck out to me the most while I've been eating at dining halls or having study sessions is that most people are not 100% present in the moment. Through distractions like our phones or other types, we have lost the ability to sit still and be immersed in our current task. Nowadays, if you sit alone and are not looking down at your phone every 30 seconds, then you are considered weird. It's weird for people to not have something right in front of them to fixate on 24/7. It's weird to not have a short or reel dangling in front of them to keep their clouded mind averted from what's truly important. 
 

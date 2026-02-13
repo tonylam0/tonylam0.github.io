@@ -1,4 +1,4 @@
-import{j as e,M as t,r as n}from"./index-DSKGyU7A.js";import{P as o}from"./Post-DlYtzo3m.js";const i=`# Escaping the "Gold Standard" of Computer Science
+import{j as e,M as t,r as n}from"./index-aqinHdLx.js";import{P as o}from"./Post-DBuL-z3Y.js";const i=`# Escaping the "Gold Standard" of Computer Science
 
 ### The paradox
 > "Sometimes it's weird to consider that we're all effectively competing to hit the right keys on our keyboards in the right order and that if we do it for long enough, we can change the world."

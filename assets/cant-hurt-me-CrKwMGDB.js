@@ -1,4 +1,4 @@
-import{j as e,M as t,r as o}from"./index-DSKGyU7A.js";import{P as a}from"./Post-DlYtzo3m.js";const n=`# Can't Hurt Me Book Review
+import{j as e,M as t,r as a}from"./index-aqinHdLx.js";import{P as o}from"./Post-DBuL-z3Y.js";const n=`# Can't Hurt Me Book Review
 
 I have just finished *Can't Hurt Me* by David Goggins and wow. 
 
@@ -14,7 +14,7 @@ Since this book is so forward and direct, it actively punches you in the face an
 
 I can't say that there aren't any flaws with the book. I could definitely see if some people are turned off by the sometimes seemingly unnecessary cursing or provocative language. But I'd argue that's what keeps it real and authentic. He doesn't try to write it beautifully or eloquently, but just gives it to you raw and unfiltered, which adds to the book in my opinion.
 
-The book is not for everybody, but if you do read it with an open mind, I'm sure you will get at least one lesson out of it.
+The book is not for everybody, but if you read it with an open mind, I'm sure you will get at least one lesson out of it.
 
 [4.5/5]
-`,r=()=>e.jsx(e.Fragment,{children:e.jsx(a,{date:"2/13/26",children:e.jsx(t,{rehypePlugins:[[o,{target:"_blank",rel:["noopener","noreferrer"]}]],children:n})})});export{r as default};
+`,r=()=>e.jsx(e.Fragment,{children:e.jsx(o,{date:"2/13/26",children:e.jsx(t,{rehypePlugins:[[a,{target:"_blank",rel:["noopener","noreferrer"]}]],children:n})})});export{r as default};
