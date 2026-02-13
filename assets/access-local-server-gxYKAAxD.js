@@ -1,4 +1,4 @@
-import{j as e,M as n}from"./index-D6owUuRg.js";import{P as o}from"./Post-CJ0DxSxz.js";const t=`# How to Access Computer's Local Server on Any Device
+import{j as e,M as n}from"./index-DSKGyU7A.js";import{P as o}from"./Post-DlYtzo3m.js";const t=`# How to Access Computer's Local Server on Any Device
 In order to access a computer’s local server, you have to change the server’s listener from just its own machine to everybody on the network. This is done by configuring the server to listen on 0.0.0.0 instead of just localhost (127.0.0.1). The difference is that the 127.0.0.1 IP address loops back to itself, so the server can only be accessed by the machine directly connected to it. But through changing the IP binding to 0.0.0.0, the server is able to be accessed by any machine on the same Wi-Fi network.
 
 **Warning**: Only do this on a trusted network because anyone on the Wi-Fi can potentially view your work. If you want a non-accessible option, consider USB tethering.
