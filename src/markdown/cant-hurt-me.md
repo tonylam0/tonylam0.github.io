@@ -14,6 +14,6 @@ Since this book is so forward and direct, it actively punches you in the face an
 
 I can't say that there aren't any flaws with the book. I could definitely see if some people are turned off by the sometimes seemingly unnecessary cursing or provocative language. But I'd argue that's what keeps it real and authentic. He doesn't try to write it beautifully or eloquently, but just gives it to you raw and unfiltered, which adds to the book in my opinion.
 
-The book is not for everybody, but if you do read it with an open mind, I'm sure you will get at least one lesson out of it.
+The book is not for everybody, but if you read it with an open mind, I'm sure you will get at least one lesson out of it.
 
 [4.5/5]
