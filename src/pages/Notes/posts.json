@@ -16,5 +16,11 @@
     "title": "Escaping the \"Gold Standard\" of Computer Science",
     "date": "2/12/2026",
     "route": "/gold-standard"
+  },
+  {
+    "id": 4,
+    "title": "Can't Hurt Me Book Review",
+    "date": "2/13/2026",
+    "route": "/cant-hurt-me"
   }
 ]

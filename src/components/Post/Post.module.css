@@ -56,6 +56,12 @@
   color: inherit;
 }
 
+.content hr {
+  border: none;
+  height: 1px;
+  background-color: black;
+}
+
 .content blockquote {
   border-left: 6px solid black;
   margin-left: 0;
